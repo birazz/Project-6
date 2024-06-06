@@ -29,3 +29,10 @@ scrollRevealOption().reveal(".header_contaianer h1",{
 })
 scrollRevealOption().reveal(".header_contaianer .btn",{
             ...scrollRevealOption, delay:1000,})
+
+
+            //room container
+       scrollReveal().reveal(".room_card",{
+        ...scrollRevealOption,
+        interval:500,
+       })
