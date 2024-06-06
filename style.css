@@ -190,3 +190,71 @@ nav {
     background-repeat: no-repeat;
 
 }
+.header_container.section_subheader{
+    color: var(--white);
+}
+.header_container h1 {
+    margin-bottom: 2rem;
+    font-size: 6rem;
+    font-weight: 800rem;
+    line-height: 7rem;
+    font-family: var(--header-font);
+    color:rgb(202, 195, 125)
+}
+.booking {
+    background-color:#8fb2e4;
+}
+.booking_container form{
+    max-width: 350px;
+    margin:auto;
+    display: grid;
+    gap:2rem;
+}
+.input_group{
+    display: grid;
+    gap: 1rem;
+}
+.input_group label{
+    font-weight:600;         /*this tag is used to increase font: ; */
+    /* color: var(--extra-light); */
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid var(--text-dark);
+    border-radius: 5px;
+}
+.input_group input::placeholder{
+    color: var(--text-light)
+}
+
+.about{
+    position: relative;
+    isolation: isolate;
+}
+.about::before{
+    position:absolute;
+    content:"";
+    bottom: 0;
+   right: 0;
+   height: 75%;
+   width: 100%;
+   background-image: url(img/menu3.jpg);
+   background-size:cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   opacity: 0.5;
+   z-index: -1;
+}
+.aabtn {
+    padding: .5rem 1.5rem;
+    font-size: 0.9rem;
+    color: var(--white);
+    background-color: var(--seondary-color); /* Corrected typo in variable name */
+    outline: none;
+    border: none; /* Removed border-width and simplified border */
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin: auto; /* Center horizontally */
+}
+
