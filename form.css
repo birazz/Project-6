@@ -115,4 +115,20 @@
   ;
 }
 
-    
+.password-wrapper {
+  position: relative;
+  width: max-content;
+}
+
+.password-input {
+  padding-right: 30px; /* Space for the eye icon */
+}
+
+#togglePassword {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #888;
+}
