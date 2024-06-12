@@ -21,18 +21,26 @@ const scrollRevealOption = {
 
 };
 //header container 
-scrollRevealOption().reveal(".header_contaianer .section_subheader",{
-    ...scrollRevealOption})
-scrollRevealOption().reveal(".header_contaianer h1",{
-        ...scrollRevealOption,
+ScrollReveal().reveal(".header_contaianer .section_subheader", {
+    ...scrollRevealOption});
+
+ScrollReveal().reveal(".header_contaianer h1", {
+        ...scrollRevealOption, 
     delay:500,
-})
-scrollRevealOption().reveal(".header_contaianer .btn",{
-            ...scrollRevealOption, delay:1000,})
+});
+
+ScrollReveal().reveal(".header_contaianer .btn", {
+            ...scrollRevealOption,
+             delay:1000,});
 
 
             //room container
-       scrollReveal().reveal(".room_card",{
+       ScrollReveal().reveal(".room_card",{
         ...scrollRevealOption,
         interval:500,
-       })
+       });
+      //feature container
+    ScrollReveal().reveal(".feature_card",{         //  this is use to display the words late
+        ...scrollRevealOption,
+        interval:500,
+    });
