@@ -410,3 +410,52 @@ color: rgb(11, 10, 10);
     counter-reset: var(--text-dark);
 }
 
+.menu{
+    background-color: white;
+}
+.menu_header{
+    display:flex;
+    flex-direction: column;
+    gap:2rem;
+}
+.menu_items{
+    list-style:none;
+    margin-block:4rem ;
+    display: grid;
+    gap:1rem 4rem;
+
+}
+.menu_items li{
+display: flex;
+align-items: center;
+gap: 1rem;
+cursor: pointer;
+transition: 0.3s;
+}
+.menu_items li:hover{
+    background-color:rgb(207, 227, 233);
+
+}
+.menu_items img{
+    max-width: 200px;
+    border-radius: 2px;
+
+}
+.menu_items h4{
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+    transition: 0.3s;
+}
+
+.menu_items p {
+    max-width: 800px;
+    color: black;
+    transition: 0.3s;
+
+}
+.menu_items li:hover :is(h4, p){
+    color:var(--white);
+}
