@@ -40,7 +40,7 @@ ScrollReveal().reveal(".header_contaianer .btn", {
         interval:500,
        });
       //feature container
-    ScrollReveal().reveal(".feature_card",{         //  this is use to display the words late
+    ScrollReveal().reveal(".feature_card",{         //  this is use to display the words animated.
         ...scrollRevealOption,
         interval:500,
     });

@@ -5,7 +5,11 @@
 
 
 
-.form {
+.form { 
+  background-color: #252727;
+  
+  margin-top: 15%;
+  margin-left: 32%;
   width: 100%;
   display: flex;
   flex-direction: column;
